@@ -6,11 +6,12 @@ Content-Type: application/json
 GET http://localhost:3000/
 
 ###
-GET http://localhost:3000/log
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiY2FpbyIsImlhdCI6MTU4Njk4ODkxMn0.2g2ogT0226OoVhCR9kLeGwhPRonZyV6Rkftd7jlR4Uk
+GET http://localhost:3000/logi
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.MTIzNDU.2GHDwUKY6-3KFceJzNS2CSr_t24sxSsxTEyMH69atmc
+
 
 ###
 POST  http://localhost:3000/login
 Content-Type: application/json
 
-{ "username": "caio"} 
+{ "Username": "caio"} 
